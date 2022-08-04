@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘의 집 - 커뮤니티 모바일</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/b830e16055.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="headerTop">
+            <div class="headerIn">
+                <div class="subMenuBtn">
+                    <button><i class="fa-solid fa-bars"></i></button>
+                </div>
+                <h1><a href="#"><span>MainLogo</span></a></h1>
+
+                <div class="menuWrap">
+                    <div class="searchMenuBtn">
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="cartMenuBtn">
+                        <button>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="menuBg"></div>
+    <div class="headerSubMenu">
+        <div class="util">
+            <ul>
+                <li><a href="#" class="logIn">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul>
+        </div>
+        <div class="storeLink">
+            <a href="#"><span>스토어 가기 </span>
+                <i class="fa-solid fa-angle-right"></i></a>
+        </div>
+        <div class="writeWrap">
+            <button class="write">
+                <a href="#">글쓰기
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+            </button>
+        </div>
+        <nav class="gnb">
+            <ul>
+                <li><a href="#" class="active">홈</a></li>
+                <li><a href="#">팔로잉</a></li>
+                <li><a href="#">사진</a></li>
+                <li><a href="#">집들이</a></li>
+                <li><a href="#">노하우</a></li>
+                <li><a href="#">셀프가이드</a></li>
+                <li><a href="#">질문과답변</a></li>
+                <li><a href="#">이벤트</a></li>
+                <li>
+                    <div class="link3D">
+                        <a href="#">3D 인테리어</a>
+                        <span>BETA</span>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+    <div class="searchSubMenu">
+        <div class="searchTop">
+            <form action="" class="searchWrap">
+                <label for="totalSearch">
+                    <span class="searchBtn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                </label>
+                <input type="text" class="searchArea" placeholder="검색어를 입력하세요">
+                <input type="submit" value="검색" id="totalSearch">
+            </form>
+            <button class="searchCloseBtn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="searchBottom">
+            <div class="searchBottomWrap">
+                <button><span>최근 검색어</span></button>
+                <button><span>전체 삭제</span></button>
+            </div>
+            <div class="resentSearch">
+                <span>무선 선풍기</span>
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="resentSearch">
+                <span>디자인 부채</span>
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </div>
+    <div class="cartSubMenu">
+        <div class="cartSubMenuWrap">
+            <button class="cartCloseBtn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <h2>장바구니가 텅 비었어요!</h2>
+            <div class="cartMenuImg">
+                <img src="images/cart.png" alt="">
+            </div>
+            <button class="cartShoppingBtn">
+                <a href="#">상품 담으러 가기</a>
+            </button>
+        </div>
+    </div>
+
+    <div class="sectionWrap">
+        <section class="sectionHouse">
+            <div class="swiper swiperHouse">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="contentHouse CH1">
+                            <a href="#">
+                                <div class="houseTextWrap">
+                                    <img src="" alt="">
+                                    <p>창 밖의 노을로 인테리어가 완성되는
+                                        베이지 하우스</p>
+                                    <span class="profIcon"></span>
+                                    <span>Hye.onee</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="contentHouse CH2">
+                            <a href="#">
+                                <div class="houseTextWrap">
+                                    <img src="" alt="">
+                                    <p>나무가 보이는 복층 오피스텔에서
+                                        촘촘히 기록한 1년</p>
+                                    <span class="profIcon"></span>
+                                    <span>Jarip.zi</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="contentHouse CH3">
+                            <a href="#">
+                                <div class="houseTextWrap">
+                                    <img src="" alt="">
+                                    <p>따뜻한 햇빛이 매일 들어오는
+                                        유럽 전원st 미니멀하우스</p>
+                                    <span class="profIcon"></span>
+                                    <span>For.Seasons</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="quickMenu">
+            <div class="quickMenuWrap">
+                <ul class="quickMenuList">
+                    <li><a href="#">
+                            <div class="quickMenuTxt">
+                                <span>오늘의 스토리</span>
+                                <p>베스트 집들이</p>
+                            </div>
+                            <div class="qickMenuImg"></div>
+                        </a></li>
+                    <li><a href="#">
+                            <div class="quickMenuTxt">
+                                <span>예쁜 집 구경하기</span>
+                                <p>집들이</p>
+                            </div>
+                            <div class="qickMenuImg"></div>
+                        </a></li>
+                    <li><a href="#">
+                            <div class="quickMenuTxt">
+                                <span>전문가 시공사례</span>
+                                <p>전문가 집들이</p>
+                            </div>
+                            <div class="qickMenuImg"></div>
+                        </a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="sectionPhoto">
+
+            <div class="photoTop">
+                <h2>오늘의 인기 사진</h2>
+                <a href="#" class="menuMore">더보기 <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+
+            <article>
+                <div class="contentPhoto">
+                    <div class="photoImg"><img src="images/section3Img1.png" alt=""></div>
+                </div>
+            </article>
+            <article>
+                <div class="contentPhoto">
+                    <div class="photoImg"><img src="images/section3Img2.png" alt=""></div>
+                </div>
+            </article>
+            <article>
+                <div class="contentPhoto">
+                    <div class="photoImg"><img src="images/section3Img3.png" alt=""></div>
+                </div>
+            </article>
+            <article>
+                <div class="contentPhoto">
+                    <div class="photoImg"><img src="images/section3Img4.png" alt=""></div>
+                </div>
+            </article>
+            <article>
+                <div class="contentPhoto">
+                    <div class="photoImg"><img src="images/section3Img5.png" alt=""></div>
+                </div>
+            </article>
+            <article>
+                <div class="contentPhoto">
+                    <div class="photoImg"><img src="images/section3Img6.png" alt=""></div>
+                </div>
+            </article>
+            <article>
+                <div class="contentPhoto">
+                    <div class="photoImg"><img src="images/section3Img7.png" alt=""></div>
+                </div>
+            </article>
+            <article>
+                <div class="contentPhoto">
+                    <div class="photoImg"><img src="images/section3Img8.png" alt=""></div>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="sectionCommercial">
+
+            <div class="swiper swiperCommercial">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><a href="#"><img src="images/commercial1.png" alt=""></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/commercial2.png" alt=""></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/commercial3.png" alt=""></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/commercial4.png" alt=""></a></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+        </section>
+
+        <section class="sectionReview">
+            <div class="reviewTop">
+                <h2>유저들의 인테리어 시공리뷰</h2>
+                <a href="#" class="menuMore">더보기 <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div class="reviewWrap">
+                <div class="swiper swiperReview">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <article>
+                                <div class="contentReview">
+                                    <div class="reviewImg"><a href="#"><img src="images/section4Img1.png" alt=""></a>
+                                    </div>
+                                </div>
+                        </div>
+                        </article>
+                        <div class="swiper-slide">
+                            <article>
+                                <div class="contentReview">
+                                    <div class="reviewImg"><a href="#"><img src="images/section4Img2.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article>
+                                <div class="contentReview">
+                                    <div class="reviewImg"><a href="#"><img src="images/section4Img3.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="sectionTip">
+            <div class="tipTop">
+                <h2>테마별 노하우</h2>
+                <a href="#" class="menuMore">더보기 <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div class="tipWrap">
+                <div class="swiper swiperTip">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <article>
+                                <div class="contentTip">
+                                    <div class="tipImg"><a href="#"><img src="images/section5Img1.png" alt=""></a></div>
+                                </div>
+                        </div>
+                        </article>
+                        <div class="swiper-slide">
+                            <article>
+                                <div class="contentTip">
+                                    <div class="tipImg"><a href="#"><img src="images/section5Img2.png" alt=""></a></div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article>
+                                <div class="contentTip">
+                                    <div class="tipImg"><a href="#"><img src="images/section5Img3.png" alt=""></a></div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="last">
+                                <div class="contentTip">
+                                    <div class="tipImg"><a href="#"><img src="images/section5Img4.png" alt=""></a></div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bottomMenu">
+            <div class="bottomMenuWrap">
+                <ul>
+                    <li><a href="#"><span>셀프 가이드 <i class="fa-regular fa-bookmark"></i></span></a></li>
+                    <li><a href="#"><span>질문과 답변 <i class="fa-regular fa-circle-question"></i></span></a></li>
+                    <li><a href="#"><span>이벤트 <i class="fa-solid fa-heart"></i></span></a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="footerWrap">
+            <div class="footerTop">
+                <h3><a href="#">고객센터 <i class="fa-solid fa-angle-right"></i></a></h3>
+                <p>1670-0876</p>
+                <span>09:00~18:00 (주말, 공휴일은 오늘의집 직접배송 및 이사/시공/수리 문의에 한해 전화 상담 가능)</span>
+            </div>
+            <ul>
+                <li><a href="#">브랜드 스토리</a></li>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">채용정보</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#"><strong>개인정보처리방침</strong></a></li>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">고객의 소리</a></li>
+                <li><a href="#">전문가 등록</a></li>
+                <li><a href="#">사업자 구매</a></li>
+                <li><a href="#">회원제휴/광고 문의</a></li>
+                <li><a href="#">입점신청 문의</a></li>
+                <li><a href="#">안전거래센터</a></li>
+            </ul>
+            <p>상호명: (주)버킷플레이스 &nbsp; 이메일:(고객문의) cs@bucketplace.net &nbsp; (제휴문의) contact@bucketplace.net &nbsp; 대표이사:
+                이승재 &nbsp; 사업자등록번호: 119-86-91245 &nbsp; 통신판매업신고번호: 제2018-서울서초-0580호 &nbsp;
+                <a href="#"><strong>사업자정보확인</strong></a><br>
+                주소: 서울 서초구 서초대로74길 4 삼성생명서초타워 25층, 27층 &nbsp; 우리은행 채무지급보증안내: (주)버킷플레이스는 고객님이 현금결제한 금액에 대해 우리은행과 채무지급보증
+                계약을 체결하여 안전거래를 보장하고 있습니다. &nbsp;
+                <a href="#"><strong>서비스가입사실확인</strong></a></p>
+
+            <p>오늘의집은 개별 판매자가 상품을 판매하는 오픈마켓이며 (주)버킷플레이스는 통신판매중개자로 거래 당사자가 아니므로, 판매자가 등록한 상품정보 및 거래 등에 대해 일체 책임을 지지
+                않습니다.<br>
+                단 ㈜버킷플레이스가 판매자로 등록 판매한 상품의 경우는 판매자로서 책임을 부담합니다.</p>
+            <p class="copyright">Copyright 2014. bucketplace, Co., Ltd. All rights reserved</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
